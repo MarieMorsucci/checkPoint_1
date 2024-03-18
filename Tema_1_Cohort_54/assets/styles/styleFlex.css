@@ -78,6 +78,11 @@ padding: 2rem;
 display:flex ;
 flex-wrap: wrap;
 justify-content: center;
+background-image: url(../images/fondo.jpg);
+object-fit: fill;
+background-size: 120%;
+background-position: 80%;
+background-position-y: 10%;
 
 
 }
@@ -183,4 +188,30 @@ color: white;
 form{
     border: 1px solid black;
   
+}
+
+
+
+@media screen and ((min-width: 768px)  ) {
+    /* 768px <= width < 1023px */
+    nav{
+         display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        background-color: var(--black);
+        padding: 0.5rem;
+          }
+
+          .header_title >h1{
+            text-align: center;
+            padding-top: 1rem;
+            font-size: 60px;
+            text-shadow: 0.5px 0.5px 3px red;
+        
+        }
+
+
+
+
 }

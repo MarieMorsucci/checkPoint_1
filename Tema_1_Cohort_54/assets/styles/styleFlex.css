@@ -9,7 +9,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* outline: 1px solid green;  */
+  outline: 1px solid green; 
   font-family: cursive;
 }
 
@@ -104,9 +104,9 @@ background-position-y: 10%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     padding: 0.5rem;
-    gap: 2rem;
+  
 }
 
 .card{
@@ -185,9 +185,14 @@ padding: 1rem ;
 background-color: black;
 color: white;
 }
-form{
-    border: 1px solid black;
+label, p{
+    vertical-align: bottom;
+    padding: 0.2rem;
   
+}
+
+button{
+    font-weight: 600;
 }
 
 
@@ -198,7 +203,7 @@ form{
          display: flex;
         flex-direction: row;
         align-content: center;
-        justify-content: space-between;
+        justify-content: space-around;
         background-color: var(--black);
         padding: 0.5rem;
           }

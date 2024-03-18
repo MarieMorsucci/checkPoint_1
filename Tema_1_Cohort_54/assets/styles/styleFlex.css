@@ -1,0 +1,186 @@
+:root {
+  --black: black;
+  --red: red;
+  --white: white;
+  --grey: rgb(187, 184, 184);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid green;  */
+  font-family: cursive;
+}
+
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+  
+
+}
+
+header {
+height: 30vh;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.header_title {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  height: 50%;
+  width: 100vw;
+  flex-grow: 1;
+}
+
+.header_title >h1{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 40px;
+    text-shadow: 0.5px 0.5px 3px red;
+
+}
+
+nav{
+ 
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: var(--black);
+  padding: 0.5rem;
+  
+}
+
+nav> a{
+    padding: 0.4rem;
+    text-decoration: none;
+    text-shadow: 0.5px 0.5px red;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 3px white;
+
+}
+
+main{
+height: ;
+width: 100vw;
+padding: 2rem;
+display:flex ;
+flex-wrap: wrap;
+justify-content: center;
+
+
+}
+
+.recomended{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;   
+}
+
+
+.recomended h2, .platform h2{
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+}
+.conteinerRecomended{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5rem;
+    gap: 2rem;
+}
+
+.card{
+    padding: 0.5rem;
+}
+
+.card h4{
+    text-align: center;
+    background-color: var(--grey);
+}
+.card img{
+height: 200px;
+width: 200px;
+object-fit: cover;
+}
+
+.platform{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+}
+
+.containerPlat{
+
+width: 100%;
+display: flex;
+justify-content: center;
+padding: 2rem;
+gap: 5rem;
+}
+
+.listPlatform{
+width: 50%;
+
+
+list-style: inside;
+background-color: var(--grey);
+border: 1px solid black
+}
+
+li{
+      padding-left: 5rem;
+   
+}
+
+
+.tablePlatform{
+    width: 50%;
+    text-align: center;
+    background-color: var(--grey);
+border: 1px solid black
+}
+
+table{
+    list-style: ;
+}
+
+table, tr, th, td{
+    
+    padding: rem;
+    margin: 1rem;
+    width: 80%;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    background-color: white;
+   color:black;
+   text-align: center;
+}
+
+.footer{
+display: flex;
+justify-content: space-around;
+width: 100%;
+padding: 1rem ;
+background-color: black;
+color: white;
+}
+form{
+    border: 1px solid black;
+  
+}
